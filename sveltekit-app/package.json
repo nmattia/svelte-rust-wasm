@@ -11,6 +11,11 @@
     "lint": "prettier --check .",
     "format": "prettier --write ."
   },
+  "dependencies": {
+    "lib": "file:../lib/pkg",
+    "vite-plugin-top-level-await": "^1.1.1",
+    "vite-plugin-wasm": "^2.1.0"
+  },
   "devDependencies": {
     "@sveltejs/adapter-auto": "next",
     "@sveltejs/kit": "next",
