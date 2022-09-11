@@ -27,7 +27,7 @@ cd lib && wasm-pack build
 Then run the webapp:
 
 ```bash
-cd app && npm ci && npm run dev
+cd svelte-app && npm ci && npm run dev
 ```
 
 
